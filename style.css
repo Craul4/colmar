@@ -10,6 +10,7 @@ html{
 }
 
 			/* Navigation */
+
 nav{
 	height:64px;
 	display:flex;
@@ -104,13 +105,13 @@ nav strong{
 	height:40px;
 	border:none;
 	padding:8px;
+	transition: 0.3s;
 }
 
 button:hover{
 	background-color: #7e7b7b;
-	transition: ease-in-out  0.3s ;
+	
 }
-
 
 /* Second Section*/
 
@@ -141,7 +142,8 @@ button:hover{
 	color:#919292;
 	margin-top:0px;
 	margin-bottom:32px;
-	max-width:85%;
+
+	line-height:1.4;
 }
 
 .secondSectionLeft h5{
@@ -161,7 +163,7 @@ button:hover{
 	display:flex;
 	border-bottom:2px double #e2e4e4;
 	align-items:flex-start;
-}
+}	
 
 .secondSectionRight div:hover{
 	background-color: #e2e4e4;
@@ -170,21 +172,21 @@ button:hover{
 
 
 .secondSectionRightText {
-	display:flex;
+	align-self:center;
 	flex-direction: column;
+	justify-content:flex-start;
 	border-bottom:none !important;
+	padding-right:15px;
 }
 
 .secondSectionRightText h2{
 	padding: 8px 0px;
-	margin: 46px 0px 0px 0px;
 	color:#4a4a4a;
 }
 
 .secondSectionRightText h4{
-	margin:0px;
-	padding: 0px;
 	color:#919292;
+	line-height:1.5;
 	font-size:16px;
 }
 
@@ -252,7 +254,6 @@ padding-bottom:32px;
 	margin: 0px 0px 16px 0px;
 	color: #4a4a4a;
 	font-weight:bold;
-	
 }
 
 .thirdSectionGrid .gridtext h4{
@@ -261,7 +262,6 @@ padding-bottom:32px;
 	color: #919292;
 	font-weight:550;	
 }
-
 
 /* Fourth section */
 
@@ -314,11 +314,12 @@ padding-bottom:32px;
 	display:flex;
 	flex-flow: column nowrap;
 	width:40%;
-	margin-left:24px;
 }
 
 .fourthSectionRight div{
 	display:flex;
+	align-items:end;
+	align-self:center;
 }
 
 .fourthSectionRight div:hover{
@@ -333,7 +334,6 @@ padding-bottom:32px;
 }
 
 .fourthSectionRightText{
-	display:flex;
 	flex-direction:column;
 	text-align:left;
 	max-width:65%;
@@ -341,8 +341,7 @@ padding-bottom:32px;
 
 .fourthSectionRightText h2{
 	color:#4a4a4a;
-	margin-top:55px;
-	margin-bottom:0px;
+	margin-top:16px;
 }
 
 .fourthSectionRightText h4{
@@ -351,7 +350,6 @@ padding-bottom:32px;
 	color:#919292;
 	font-size:16px;
 }
-
 
 /* Footer*/
 
@@ -370,7 +368,6 @@ footer .terms{
 	margin-right:16px;
 	font-weight:600px;
 }
-
 
 /* MEDIA QUERIES */
 
@@ -393,6 +390,7 @@ footer .terms{
 
 
  /* FIRST SECTION */
+
 	.firstSection {
 		flex-direction:column;
 	}
@@ -468,7 +466,7 @@ footer .terms{
 	.secondSectionRight .readMore{
 		padding-bottom:32px	;
 	}	
-	
+
 
 /* THIRD SECTION*/
 
@@ -538,11 +536,11 @@ footer .terms{
 		max-width:100%;
 	}
 
-
 /*FOOTER*/
 
 	footer{
 		text-align:center;	
+		border-top:0px;
 	}
 
 	footer h4{
@@ -553,8 +551,3 @@ footer .terms{
 		display:none;
 	}
 }
-
-
-
-
-
