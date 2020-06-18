@@ -176,7 +176,6 @@ button:hover{
 	flex-direction: column;
 	justify-content:flex-start;
 	border-bottom:none !important;
-	padding-right:15px;
 }
 
 .secondSectionRightText h2{
